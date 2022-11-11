@@ -1,0 +1,10 @@
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\bin\Debug\Stok Takip - Masaustu Uygulama.exe.config
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\bin\Debug\Stok Takip - Masaustu Uygulama.exe
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\bin\Debug\Stok Takip - Masaustu Uygulama.pdb
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.csproj.AssemblyReference.cache
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.csproj.SuggestedBindingRedirects.cache
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok_Takip___Masaustu_Uygulama.Properties.Resources.resources
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.csproj.GenerateResource.cache
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.csproj.CoreCompileInputs.cache
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.exe
+C:\Users\Halim Bilici\source\repos\Stok Takip - Masaustu Uygulama\Stok Takip - Masaustu Uygulama\obj\Debug\Stok Takip - Masaustu Uygulama.pdb
