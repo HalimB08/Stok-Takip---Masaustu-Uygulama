@@ -19,36 +19,28 @@ namespace Stok_Takip___Masaustu_Uygulama
         user users = new user();
         private void registerBtn_Click(object sender, EventArgs e)
         {
-            if (usernameTbox.Text.Trim() != "")
-            {
-                if (userpassword1Tbox.Text.Trim() != "" || userpassword2Tbox.Text.Trim() != "")
-                {
-                    if (userpassword1Tbox.Text.Trim() == userpassword2Tbox.Text.Trim())
-                    {
-                        if (users.userRegister(usernameTbox.Text.Trim(), userpassword1Tbox.Text.Trim()) == 0)
-                        {
-                            MessageBox.Show("Kayıt Başarılı!");
-                            this.Close();
-                        }
-                        else
-                        {
-                            MessageBox.Show("Kayıt başarısız!");
-                        }
-                    }
-                    else
-                    {
-                        messageTxt.Text = "Kullanıcı şifreleri eşleşmiyor!";
-                    }
-                }
-                else
-                {
-                    messageTxt.Text = "Kullanıcı şifresi boş bırakılamaz!";
-                }
-            }
-            else
+            if (usernameTbox.Text.Trim() == null)
             {
                 messageTxt.Text = "Kullanıcı adı boş bırakılamaz!";
+                return;
             }
+            if (userpassword1Tbox.Text.Trim() == "" || userpassword2Tbox.Text.Trim() == "")
+            {
+                messageTxt.Text = "Kullanıcı şifresi boş bırakılamaz!";
+                return;
+            }
+            if (userpassword1Tbox.Text.Trim() == userpassword2Tbox.Text.Trim())
+            {
+                messageTxt.Text = "Kullanıcı şifreleri eşleşmiyor!";
+                return;
+            }
+            if (users.userRegister(usernameTbox.Text.Trim(), userpassword1Tbox.Text.Trim()) == 1)
+            {
+                MessageBox.Show("Kayıt Gerçekleşemedi! Hata Kodu 0");
+                return;
+            }
+            MessageBox.Show("Kayıt Başarılı!");
+            this.Close();
         }
     }
 }

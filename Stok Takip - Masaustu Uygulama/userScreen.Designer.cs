@@ -56,6 +56,7 @@
             this.loginBtn.TabIndex = 8;
             this.loginBtn.Text = "Giriş Yap";
             this.loginBtn.UseVisualStyleBackColor = true;
+            this.loginBtn.Click += new System.EventHandler(this.loginBtn_Click);
             // 
             // userPasswordTXT
             // 

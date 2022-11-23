@@ -22,5 +22,10 @@ namespace Stok_Takip___Masaustu_Uygulama
             user_registrationScreen registerScreen = new user_registrationScreen();
             registerScreen.ShowDialog();
         }
+
+        private void loginBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
